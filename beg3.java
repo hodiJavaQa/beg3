@@ -26,6 +26,28 @@ public class Main {
             result=number1%number2;
         else
             System.out.println("invalid input");
+        switch (operator){
+            case '+':
+                result =number1+number2;
+                break;
+            case '-':
+                result= number1-number2;
+                break;
+            case '*':
+                result=number1*number2;
+                break;
+            case '/':
+                result = number1/number2;
+                break;
+            case '%':
+                result=number1%number2;
+                break;
+            default:
+                System.out.println("invalid input");
+        }
+
+        System.out.println(result);
+
 
         System.out.println(result);
 
